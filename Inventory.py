@@ -17,3 +17,13 @@ class Armour(Item):
 
         self.AC = 0
         self.type = '' #eg light armour, medium armour, heavy armour
+
+class Other(Item):
+    def __init__(self):
+
+        self.desc = '' #just put all yo sheet here
+
+class Inventory:
+    def __init__(self):
+
+        self.contents = ()
