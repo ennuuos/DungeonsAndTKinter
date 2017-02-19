@@ -4,7 +4,7 @@ class Item:
         self.bag = ()
 
         def add(self, item):
-            item.append(self.bag)
+            self.bag.append(self.item)
 
         def remove(self, item):
-            #pass
+            self.bag.remove(item)
