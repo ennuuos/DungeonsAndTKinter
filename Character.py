@@ -14,7 +14,18 @@ class Attributes:
 
 class Character(Entity):
     def __init__(self):
-        pass
+
+        self.name = ''
+        self.race = ''
+        self.alignment = ''
+        self.exp = 0
+        self.age = 0
+        self.height = ''
+        self.weight = ''
+        self.eyes = ''
+        self.skin = ''
+        self.hair = ''
+
 
 
 
