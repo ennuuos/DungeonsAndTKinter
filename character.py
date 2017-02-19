@@ -9,11 +9,12 @@ class Attributes:
         self.cha = 10
 
         def modifier(self, stat):
-
+            modifier = int((stat/2)-5)
+            return modifier
 
 class Character(Entity):
     def __init__(self):
-
+        pass
 
 
 class Classes:
