@@ -8,6 +8,7 @@ class Attributes:
         self.wis = 10
         self.cha = 10
 
+        def modifier(self, stat):
 
 
 class Character(Entity):
