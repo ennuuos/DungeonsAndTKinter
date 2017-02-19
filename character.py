@@ -17,6 +17,7 @@ class Character(Entity):
         pass
 
 
+
 class Classes:
     def __init__(self):
         self.barbarian  = 0
