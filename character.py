@@ -1,4 +1,4 @@
-class Character:
+class Attributes:
     def __init__(self):
 
         self.str = 10
@@ -8,7 +8,12 @@ class Character:
         self.wis = 10
         self.cha = 10
 
-        self.classes = Classes()
+
+
+class Character(Entity):
+    def __init__(self):
+
+
 
 class Classes:
     def __init__(self):
